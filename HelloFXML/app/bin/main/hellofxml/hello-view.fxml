@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/24"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="hellofxml.HelloController"
+      spacing="10" alignment="CENTER">
+
+    <Label fx:id="helloLabel" text="Hello FXML!" />
+    <Button text="Click Me" onAction="#onHelloButtonClick" />
+
+</VBox>
